@@ -61,7 +61,7 @@ function tarifGetir() {
       fayda: "Mercimek yüksek protein ve demir içerir.",
       alerjen: "Gluten (un) ve süt ürünü (tereyağı) içerebilir.",
       maliyet: "6 kişilik toplam ≈ 65-75 TL",
-      gorsel: ""
+      gorsel: "mercimek.jpg"
     },
     "kofte": {
       baslik: "İzmir Köfte",
