@@ -7,10 +7,10 @@ function tarifGetir() {
     sonucDiv.innerHTML = `
       <h2>Patlıcan Musakka</h2>
       
-      <!-- Doğru, ücretsiz ve yasal Patlıcan Musakka görseli -->
-      <img src="https://images.unsplash.com/photo-1604908177453-7462950a6a3b?w=800&q=80" 
+      <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=800&q=80" 
            alt="Patlıcan Musakka" 
-           class="yemek-gorseli">
+           class="yemek-gorseli"
+           onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/8a/Musakka.jpg'">
       
       <p><strong>Minimum porsiyon:</strong> 4 kişilik</p>
       
