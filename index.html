@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasal Tarif Asistanı</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts - ücretsiz ve şık yazı tipi -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🍳 Yemek Tarif Asistanı</h1>
+      <p class="aciklama">Yasal • Telif haklarına saygılı • Ücretsiz</p>
+    </header>
+
+    <div class="arama-kutusu">
+      <input type="text" id="yemekAdi" placeholder="Yemek adı yazın... (ör: patlıcan musakka)">
+      <button onclick="tarifGetir()">Tarifi Göster</button>
+    </div>
+
+    <div id="sonuc"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
