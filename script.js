@@ -129,7 +129,7 @@ function tarifGetir() {
       fayda: "İnce hamur + bol sebze ile daha hafif olur.",
       alerjen: "Gluten ve et içerir.",
       maliyet: "4 adet toplam ≈ 220-230 TL",
-      gorsel: ""
+      gorsel: "lahmacun.jpg"
     },
     "etlinohut": {
       baslik: "Etli Nohut Yemeği",
