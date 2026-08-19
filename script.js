@@ -1,5 +1,10 @@
 function tarifGetir() {
-  const ad = document.getElementById('yemekAdi').value.toLowerCase().trim().replace(/\s+/g, '');
+  // Türkçe karakterleri düzelt + boşlukları sil
+  let ad = document.getElementById('yemekAdi').value.toLowerCase().trim();
+  ad = ad.replace(/ç/g, 'c').replace(/ğ/g, 'g').replace(/ı/g, 'i')
+         .replace(/ö/g, 'o').replace(/ş/g, 's').replace(/ü/g, 'u')
+         .replace(/\s+/g, '');
+
   const sonucDiv = document.getElementById('sonuc');
 
   const tarifler = {
