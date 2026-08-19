@@ -148,7 +148,7 @@ function tarifGetir() {
       fayda: "Nohut yüksek lif ve protein içerir, uzun süre tok tutar.",
       alerjen: "Et içerir.",
       maliyet: "5 kişilik toplam ≈ 350-370 TL",
-      gorsel: ""
+      gorsel: "nohut.jpg"
     }
   };
 
