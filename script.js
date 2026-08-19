@@ -9,25 +9,26 @@ function tarifGetir() {
 
   const tarifler = {
     "patlicanmusakka": {
-      baslik: "Patlıcan Musakka",
-      porsiyon: "4 kişilik",
-      malzemeler: `• 4 orta boy patlıcan (≈ 70 TL)<br>
+  baslik: "Patlıcan Musakka",
+  porsiyon: "4 kişilik",
+  malzemeler: `• 4 orta boy patlıcan (≈ 70 TL)<br>
 • 400 g dana kıyma (≈ 320 TL)<br>
 • 2 adet soğan (≈ 14 TL)<br>
 • 3 adet domates (≈ 30 TL)<br>
 • 3 yemek kaşığı zeytinyağı (≈ 15 TL)<br>
 • 1 çay kaşığı zerdeçal + tuz, karabiber (≈ 5 TL)`,
-      teknik: `1. Patlıcanları yuvarlak dilimle, tuz serpip 20-25 dakika beklet, acısını ve suyunu süz, kağıt havlu ile kurula.<br>
+  teknik: `1. Patlıcanları yuvarlak dilimle, tuz serpip 20-25 dakika beklet, acısını ve suyunu süz, kağıt havlu ile kurula.<br>
 2. Az zeytinyağında veya fırında 180°C’de hafif kızarana kadar pişir.<br>
 3. Kıymayı soğanla birlikte kavur, domatesleri ekle, baharatları atıp 8-10 dakika pişir.<br>
 4. Fırın kabına bir kat patlıcan, bir kat kıymalı harç şeklinde diz. En üste domates dilimi koyabilirsin.<br>
 5. 180°C önceden ısıtılmış fırında 35-40 dakika pişir.`,
-      kalori: "yaklaşık 1800 kcal (1 porsiyon ≈ 450 kcal)",
-      fayda: "Zerdeçal anti-inflamatuar ve sindirim dostudur.",
-      alerjen: "Et (kıyma) içerir.",
-      maliyet: "4 kişilik toplam ≈ 450-480 TL",
-      gorsel: "musakka.jpg"
-    },
+  kalori: "yaklaşık 1800 kcal (1 porsiyon ≈ 450 kcal)",
+  fayda: "Zerdeçal anti-inflamatuar ve sindirim dostudur.",
+  alerjen: "Et (kıyma) içerir.",
+  maliyet: "4 kişilik toplam ≈ 450-480 TL",
+  gorsel: "musakka.jpg",
+  video: "<iframe width='100%' height='315' src='https://www.youtube.com/embed/-7DsgzJWoZ4' frameborder='0' allowfullscreen></iframe>"
+  }, 
     "menemen": {
       baslik: "Menemen",
       porsiyon: "2 kişilik",
@@ -172,6 +173,7 @@ function tarifGetir() {
       <p><strong>Faydaları:</strong><br>${bulunan.fayda}</p>
       <p><strong>Alerjen uyarısı:</strong><br>${bulunan.alerjen}</p>
       <p><strong>Güncel yaklaşık maliyet (Ağustos 2026 – A101/BİM/Şok/Migros):</strong><br>${bulunan.maliyet}</p>
+      ${bulunan.video ? bulunan.video : ''}
       <div class="not">Bu tarif tamamen orijinaldir • Telif hakkı ihlali yoktur</div>
     `;
   } else {
