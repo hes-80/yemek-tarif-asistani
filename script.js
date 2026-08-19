@@ -41,7 +41,7 @@ function tarifGetir() {
       fayda: "Domates likopen açısından zengindir, bağışıklığı destekler.",
       alerjen: "Yumurta içerir.",
       maliyet: "2 kişilik toplam ≈ 70-75 TL",
-      gorsel: ""
+      gorsel: "menemen.jpg"
     },
     "mercimekcorbasi": {
       baslik: "Mercimek Çorbası",
