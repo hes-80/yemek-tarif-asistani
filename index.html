@@ -9,22 +9,74 @@
 </head>
 <body>
 
-  <div class="container">
-    <!-- Başlık -->
-    <header>
-      <h1>🍳 Yemek Tarif Asistanı</h1>
-      <p class="aciklama">Yasal • Telif haklarına saygılı • Ücretsiz</p>
-    </header>
+  <!-- Üst Menü -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">🍳 Yemek Tarif Asistanı</div>
+      <div class="nav-links">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="#ozellikler">Özellikler</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Arama Kutusu -->
-    <div class="arama-kutusu">
-      <input type="text" id="yemekAdi" placeholder="Yemek adı yazın... (ör: patlıcan musakka)">
-      <button onclick="tarifGetir()">Tarifi Göster</button>
+  <!-- Hero Bölümü -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="badge">✨ Yapay zeka destekli tarif önerileri</div>
+      <h1>Yemek Tarif<br><span>Asistanı</span></h1>
+      <p>Sevdikleriniz için en doğru tarif, akıllı önerilerle.<br>
+      Malzemelerinize, damak zevkinize ve vaktinize özel tarifler keşfedin.</p>
+
+      <div class="arama-kutusu">
+        <input type="text" id="yemekAdi" placeholder="Yemek adı yazın... (ör: patlıcan musakka)">
+        <button onclick="tarifGetir()">Tarifi Göster</button>
+      </div>
     </div>
 
-    <!-- Sonuç Alanı (script.js burayı kullanıyor) -->
+    <div class="hero-right">
+      <div class="featured-card">
+        <img src="musakka.jpg" alt="Musakka">
+        <div class="card-content">
+          <h3>Patlıcan Musakka</h3>
+          <p>Kıymalı harç ve patlıcanın muhteşem uyumu ile klasik lezzet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sonuç Alanı -->
+  <div class="container">
     <div id="sonuc"></div>
   </div>
+
+  <!-- Özellikler -->
+  <section class="features" id="ozellikler">
+    <div class="container">
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="icon">🍃</div>
+          <h3>Akıllı Öneriler</h3>
+          <p>Malzemelerinize ve tercihlerinize özel tarifler sunar.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">⏱️</div>
+          <h3>Zaman Tasarrufu</h3>
+          <p>Hızlı ve pratik tariflerle mutfakta vakit kazanın.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">❤️</div>
+          <h3>Kişiselleştirilmiş</h3>
+          <p>Beğenilerinizi öğrenerek size en uygun tarifleri keşfedin.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">👨‍🍳</div>
+          <h3>Güvenilir Tarifler</h3>
+          <p>Denenmiş, ölçülü ve adım adım tariflerle başarı garantisi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
