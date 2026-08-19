@@ -1,9 +1,9 @@
 function tarifGetir() {
-  const ad = document.getElementById('yemekAdi').value.toLowerCase().trim();
+  const ad = document.getElementById('yemekAdi').value.toLowerCase().trim().replace(/\s+/g, '');
   const sonucDiv = document.getElementById('sonuc');
 
   const tarifler = {
-    "patlıcan musakka": {
+    "patlicanmusakka": {
       baslik: "Patlıcan Musakka",
       porsiyon: "4 kişilik",
       malzemeler: `• 4 orta boy patlıcan (≈ 70 TL)<br>
@@ -35,7 +35,7 @@ function tarifGetir() {
       teknik: `1. Soğanı yemeklik doğra, zeytinyağında pembeleşene kadar kavur.<br>
 2. Biberleri ince doğrayıp ekle, 2-3 dakika sotele.<br>
 3. Domatesleri rendele veya küp küp doğra, ekle. Suyunu çekene kadar 5-6 dakika pişir.<br>
-4. Yumurtaları kırıp karıştırarak ekle. İstediğin kıvama gelince (az pişmiş veya tam) ocaktan al.<br>
+4. Yumurtaları kırıp karıştırarak ekle. İstediğin kıvama gelince ocaktan al.<br>
 5. Üzerine pul biber serpip sıcak servis et.`,
       kalori: "yaklaşık 450 kcal (2 kişilik)",
       fayda: "Domates likopen açısından zengindir, bağışıklığı destekler.",
@@ -43,7 +43,7 @@ function tarifGetir() {
       maliyet: "2 kişilik toplam ≈ 70-75 TL",
       gorsel: ""
     },
-    "mercimek çorbası": {
+    "mercimekcorbasi": {
       baslik: "Mercimek Çorbası",
       porsiyon: "5-6 kişilik",
       malzemeler: `• 1 su bardağı kırmızı mercimek (≈ 18 TL)<br>
@@ -56,14 +56,14 @@ function tarifGetir() {
 2. Unu ekle, kokusu çıkana kadar 1-2 dakika kavur.<br>
 3. Yıkanmış mercimeği ekle, 6 su bardağı sıcak suyu dök.<br>
 4. Kaynayınca altını kıs, 20-25 dakika pişir.<br>
-5. Blenderdan geçir (veya süzgeçten), baharatları ekle. Kıvamı koyu olursa su ilave et.`,
+5. Blenderdan geçir, baharatları ekle. Kıvamı koyu olursa su ilave et.`,
       kalori: "yaklaşık 1200 kcal (6 kişilik)",
       fayda: "Mercimek yüksek protein ve demir içerir.",
       alerjen: "Gluten (un) ve süt ürünü (tereyağı) içerebilir.",
       maliyet: "6 kişilik toplam ≈ 65-75 TL",
       gorsel: ""
     },
-    "köfte": {
+    "kofte": {
       baslik: "İzmir Köfte",
       porsiyon: "4 kişilik",
       malzemeler: `• 500 g dana kıyma (≈ 400 TL)<br>
@@ -84,7 +84,7 @@ function tarifGetir() {
       maliyet: "4 kişilik toplam ≈ 470-500 TL",
       gorsel: ""
     },
-    "mantı": {
+    "manti": {
       baslik: "Mantı",
       porsiyon: "4 kişilik",
       malzemeler: `• 3 su bardağı un (≈ 12 TL)<br>
@@ -126,7 +126,7 @@ function tarifGetir() {
       maliyet: "4 adet toplam ≈ 220-230 TL",
       gorsel: ""
     },
-    "etli nohut": {
+    "etlinohut": {
       baslik: "Etli Nohut Yemeği",
       porsiyon: "5 kişilik",
       malzemeler: `• 2 su bardağı haşlanmış nohut (≈ 40 TL)<br>
