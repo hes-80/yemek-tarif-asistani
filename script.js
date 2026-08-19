@@ -107,7 +107,7 @@ function tarifGetir() {
       fayda: "Doyurucu ve lezzetli bir ana yemektir.",
       alerjen: "Gluten, yumurta, et ve süt ürünü içerir.",
       maliyet: "4 kişilik toplam ≈ 310-340 TL",
-      gorsel: ""
+      gorsel: "manti.jpg"
     },
     "lahmacun": {
       baslik: "Lahmacun",
