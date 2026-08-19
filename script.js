@@ -87,7 +87,7 @@ function tarifGetir() {
       fayda: "Yüksek protein içerir.",
       alerjen: "Et, yumurta ve gluten (ekmek) içerir.",
       maliyet: "4 kişilik toplam ≈ 470-500 TL",
-      gorsel: ""
+      gorsel: "kofte.jpg"
     },
     "manti": {
       baslik: "Mantı",
