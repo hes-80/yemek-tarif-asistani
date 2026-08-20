@@ -254,7 +254,7 @@ function tarifGetir() {
       <p><strong>Kalori:</strong> ${bulunan.kalori}</p>
       <p><strong>Faydaları:</strong><br>${bulunan.fayda}</p>
       <p><strong>Alerjen uyarısı:</strong><br>${bulunan.alerjen}</p>
-      <p><strong>Güncel yaklaşık maliyet (Ağustos 2026 – A101/BİM/Şok/Migros):</strong><br>${bulunan.maliyet}</p>
+      <p><strong>Güncel yaklaşık maliyet (Ağustos 2026 – yerel zincir marketlerden):</strong><br>${bulunan.maliyet}</p>
       ${bulunan.video ? bulunan.video : ''}
       <div class="not">Bu tarif tamamen orijinaldir • Telif hakkı ihlali yoktur</div>
     `;
