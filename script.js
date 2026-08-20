@@ -168,7 +168,7 @@ function tarifGetir() {
       fayda: "Yüksek protein ve lif içerir, uzun süre tok tutar.",
       alerjen: "Et içerir.",
       maliyet: "6 kişilik toplam ≈ 360-380 TL",
-      gorsel: ""
+      gorsel: "fasulye.jpg"
     },
     "pilav": {
       baslik: "Tereyağlı Pilav",
