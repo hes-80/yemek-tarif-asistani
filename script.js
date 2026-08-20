@@ -187,7 +187,7 @@ function tarifGetir() {
       maliyet: "4 kişilik toplam ≈ 75-80 TL",
       gorsel: ""
     },
-    "yapaksarma": {
+    "yapraksarma": {
       baslik: "Yaprak Sarma",
       porsiyon: "6-8 kişilik",
       malzemeler: `• 500 g asma yaprağı (≈ 60 TL)<br>
@@ -230,11 +230,16 @@ function tarifGetir() {
     }
   };
 
+  // En uzun eşleşmeyi bul (daha spesifik tarif öncelikli)
   let bulunan = null;
+  let enUzun = 0;
+
   for (let key in tarifler) {
     if (ad.includes(key) || key.includes(ad)) {
-      bulunan = tarifler[key];
-      break;
+      if (key.length > enUzun) {
+        enUzun = key.length;
+        bulunan = tarifler[key];
+      }
     }
   }
 
