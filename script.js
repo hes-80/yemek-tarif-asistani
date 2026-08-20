@@ -206,7 +206,7 @@ function tarifGetir() {
       fayda: "Zeytinyağlı olduğu için hafif ve sindirimi kolaydır.",
       alerjen: "Yok (vejetaryen).",
       maliyet: "7 kişilik toplam ≈ 155-170 TL",
-      gorsel: ""
+      gorsel: "sarma.jpg"
     },
     "mercimekkofte": {
       baslik: "Mercimek Köftesi",
