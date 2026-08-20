@@ -226,7 +226,7 @@ function tarifGetir() {
       fayda: "Yüksek protein ve lif içerir, vejetaryenlere idealdir.",
       alerjen: "Gluten (bulgur) içerir.",
       maliyet: "6 kişilik toplam ≈ 85-95 TL",
-      gorsel: ""
+      gorsel: "mercimekkofte.jpg"
     }
   };
 
