@@ -185,7 +185,7 @@ function tarifGetir() {
       fayda: "Hızlı enerji kaynağıdır.",
       alerjen: "Süt ürünü (tereyağı) içerir.",
       maliyet: "4 kişilik toplam ≈ 75-80 TL",
-      gorsel: ""
+      gorsel: "pilav.jpg"
     },
     "yapraksarma": {
       baslik: "Yaprak Sarma",
