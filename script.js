@@ -9,26 +9,26 @@ function tarifGetir() {
 
   const tarifler = {
     "patlicanmusakka": {
-  baslik: "Patlıcan Musakka",
-  porsiyon: "4 kişilik",
-  malzemeler: `• 4 orta boy patlıcan (≈ 70 TL)<br>
+      baslik: "Patlıcan Musakka",
+      porsiyon: "4 kişilik",
+      malzemeler: `• 4 orta boy patlıcan (≈ 70 TL)<br>
 • 400 g dana kıyma (≈ 320 TL)<br>
 • 2 adet soğan (≈ 14 TL)<br>
 • 3 adet domates (≈ 30 TL)<br>
 • 3 yemek kaşığı zeytinyağı (≈ 15 TL)<br>
 • 1 çay kaşığı zerdeçal + tuz, karabiber (≈ 5 TL)`,
-  teknik: `1. Patlıcanları yuvarlak dilimle, tuz serpip 20-25 dakika beklet, acısını ve suyunu süz, kağıt havlu ile kurula.<br>
+      teknik: `1. Patlıcanları yuvarlak dilimle, tuz serpip 20-25 dakika beklet, acısını ve suyunu süz, kağıt havlu ile kurula.<br>
 2. Az zeytinyağında veya fırında 180°C’de hafif kızarana kadar pişir.<br>
 3. Kıymayı soğanla birlikte kavur, domatesleri ekle, baharatları atıp 8-10 dakika pişir.<br>
 4. Fırın kabına bir kat patlıcan, bir kat kıymalı harç şeklinde diz. En üste domates dilimi koyabilirsin.<br>
 5. 180°C önceden ısıtılmış fırında 35-40 dakika pişir.`,
-  kalori: "yaklaşık 1800 kcal (1 porsiyon ≈ 450 kcal)",
-  fayda: "Zerdeçal anti-inflamatuar ve sindirim dostudur.",
-  alerjen: "Et (kıyma) içerir.",
-  maliyet: "4 kişilik toplam ≈ 450-480 TL",
-  gorsel: "musakka.jpg",
-  video: "<iframe width='100%' height='315' src='https://www.youtube.com/embed/-7DsgzJWoZ4' frameborder='0' allowfullscreen></iframe>"
-  }, 
+      kalori: "yaklaşık 1800 kcal (1 porsiyon ≈ 450 kcal)",
+      fayda: "Zerdeçal anti-inflamatuar ve sindirim dostudur.",
+      alerjen: "Et (kıyma) içerir.",
+      maliyet: "4 kişilik toplam ≈ 450-480 TL",
+      gorsel: "musakka.jpg",
+      video: "<iframe width='100%' height='315' src='https://www.youtube.com/embed/-7DsgzJWoZ4' frameborder='0' allowfullscreen></iframe>"
+    },
     "menemen": {
       baslik: "Menemen",
       porsiyon: "2 kişilik",
@@ -40,7 +40,7 @@ function tarifGetir() {
 • Tuz, karabiber, pul biber (≈ 3 TL)`,
       teknik: `1. Soğanı yemeklik doğra, zeytinyağında pembeleşene kadar kavur.<br>
 2. Biberleri ince doğrayıp ekle, 2-3 dakika sotele.<br>
-3. Domatesleri rendele veya küp küp doğra, ekle. Suyunu çekene kadar 5-6 dakika pişir.<br>
+3. Domatesleri rendele, ekle. Suyunu çekene kadar 5-6 dakika pişir.<br>
 4. Yumurtaları kırıp karıştırarak ekle. İstediğin kıvama gelince ocaktan al.<br>
 5. Üzerine pul biber serpip sıcak servis et.`,
       kalori: "yaklaşık 450 kcal (2 kişilik)",
@@ -108,7 +108,7 @@ function tarifGetir() {
       fayda: "Doyurucu ve lezzetli bir ana yemektir.",
       alerjen: "Gluten, yumurta, et ve süt ürünü içerir.",
       maliyet: "4 kişilik toplam ≈ 310-340 TL",
-      gorsel: "mantı.jpg"
+      gorsel: "manti.jpg"
     },
     "lahmacun": {
       baslik: "Lahmacun",
@@ -121,9 +121,9 @@ function tarifGetir() {
 • 1 demet maydanoz (≈ 8 TL)<br>
 • Tuz, karabiber, pul biber, kimyon (≈ 5 TL)<br>
 • 2 yemek kaşığı zeytinyağı (≈ 10 TL)`,
-      teknik: `1. Hamur için: Unu kaba al, ortasını aç. 1 çay kaşığı tuz + 1 su bardağı ılık su ekle. Yoğur, yumuşak ele yapışmayan hamur olana kadar 8-10 dk yoğur. Üzerini örtüp 30 dk dinlendir.<br>
-2. İç harç: Soğan, domates, biber ve maydanozu çok ince doğra. Kıyma, baharatlar ve zeytinyağı ile iyice karıştır.<br>
-3. Hamuru 4 eşit bezeye ayır. Her bezeyi çok ince (yufka inceliğinde) aç.<br>
+      teknik: `1. Hamur için: Unu kaba al, ortasını aç. 1 çay kaşığı tuz + 1 su bardağı ılık su ekle. Yoğur, 8-10 dk yoğur. 30 dk dinlendir.<br>
+2. İç harç: Soğan, domates, biber ve maydanozu çok ince doğra. Kıyma, baharatlar ve zeytinyağı ile karıştır.<br>
+3. Hamuru 4 eşit bezeye ayır. Her bezeyi çok ince aç.<br>
 4. Harcı eşit şekilde yayıp kenarlara 1 cm boşluk bırak.<br>
 5. Önceden ısıtılmış taş fırında veya çok sıcak tavada 3-4 dk pişir.`,
       kalori: "yaklaşık 1600 kcal (4 adet toplam)",
@@ -150,6 +150,83 @@ function tarifGetir() {
       alerjen: "Et içerir.",
       maliyet: "5 kişilik toplam ≈ 350-370 TL",
       gorsel: "nohut.jpg"
+    },
+    "kurufasulye": {
+      baslik: "Kuru Fasulye",
+      porsiyon: "5-6 kişilik",
+      malzemeler: `• 2 su bardağı kuru fasulye (≈ 45 TL)<br>
+• 300 g kuşbaşı et (≈ 280 TL)<br>
+• 1 adet soğan (≈ 7 TL)<br>
+• 1 yemek kaşığı salça (≈ 5 TL)<br>
+• 3 yemek kaşığı zeytinyağı (≈ 15 TL)<br>
+• Tuz, karabiber, kimyon, pul biber (≈ 5 TL)`,
+      teknik: `1. Fasulyeleri bir gece önceden ıslat. Ertesi gün süzüp taze su ile 20-25 dakika haşla.<br>
+2. Eti zeytinyağında kavur, soğanı ekle pembeleşince salçayı atıp 2-3 dakika daha kavur.<br>
+3. Haşlanmış fasulyeyi, baharatları ve 4-5 su bardağı sıcak suyu ekle.<br>
+4. Kısık ateşte fasulyeler yumuşayana kadar 40-50 dakika pişir. Suyu azalırsa sıcak su ilave et.`,
+      kalori: "yaklaşık 1900 kcal (6 kişilik)",
+      fayda: "Yüksek protein ve lif içerir, uzun süre tok tutar.",
+      alerjen: "Et içerir.",
+      maliyet: "6 kişilik toplam ≈ 360-380 TL",
+      gorsel: ""
+    },
+    "pilav": {
+      baslik: "Tereyağlı Pilav",
+      porsiyon: "4 kişilik",
+      malzemeler: `• 2 su bardağı pirinç (≈ 35 TL)<br>
+• 3 yemek kaşığı tereyağı (≈ 40 TL)<br>
+• 1 çay kaşığı tuz (≈ 1 TL)<br>
+• 3 su bardağı sıcak su`,
+      teknik: `1. Pirinci bol suda yıka, ılık suda 20-25 dakika beklet, süz.<br>
+2. Tencereye tereyağını koy, eriyince pirinci ekle 2-3 dakika kavur.<br>
+3. Sıcak suyu ve tuzu ekle, kaynayınca altını kıs.<br>
+4. Kısık ateşte suyu çekene kadar 12-15 dakika pişir. Ocaktan alıp 10 dakika demlendir.`,
+      kalori: "yaklaşık 1400 kcal (4 kişilik)",
+      fayda: "Hızlı enerji kaynağıdır.",
+      alerjen: "Süt ürünü (tereyağı) içerir.",
+      maliyet: "4 kişilik toplam ≈ 75-80 TL",
+      gorsel: ""
+    },
+    "yapaksarma": {
+      baslik: "Yaprak Sarma",
+      porsiyon: "6-8 kişilik",
+      malzemeler: `• 500 g asma yaprağı (≈ 60 TL)<br>
+• 1,5 su bardağı pirinç (≈ 25 TL)<br>
+• 2 adet soğan (≈ 14 TL)<br>
+• 1 demet maydanoz + dereotu (≈ 15 TL)<br>
+• 4 yemek kaşığı zeytinyağı (≈ 20 TL)<br>
+• Tuz, karabiber, nane, pul biber (≈ 5 TL)<br>
+• 1 limon (≈ 8 TL)`,
+      teknik: `1. Soğanı yemeklik doğra, zeytinyağında pembeleşene kadar kavur.<br>
+2. Yıkanmış pirinci, doğranmış yeşillikleri ve baharatları ekle, 2-3 dakika kavur. İç harcı soğut.<br>
+3. Yaprakların sert kısımlarını kes, harçtan koyup rulo şeklinde sar.<br>
+4. Tencereye diz, üzerine limon dilimleri koy, zeytinyağı gezdir, yaprakları örtecek kadar sıcak su ekle.<br>
+5. Kısık ateşte 40-45 dakika pişir. Soğuduktan sonra servis et.`,
+      kalori: "yaklaşık 1600 kcal (7 kişilik)",
+      fayda: "Zeytinyağlı olduğu için hafif ve sindirimi kolaydır.",
+      alerjen: "Yok (vejetaryen).",
+      maliyet: "7 kişilik toplam ≈ 155-170 TL",
+      gorsel: ""
+    },
+    "mercimekkofte": {
+      baslik: "Mercimek Köftesi",
+      porsiyon: "5-6 kişilik",
+      malzemeler: `• 1 su bardağı kırmızı mercimek (≈ 18 TL)<br>
+• 1 su bardağı ince bulgur (≈ 12 TL)<br>
+• 1 adet soğan (≈ 7 TL)<br>
+• 2 yemek kaşığı salça (≈ 8 TL)<br>
+• 4 yemek kaşığı zeytinyağı (≈ 20 TL)<br>
+• 1 demet maydanoz + taze soğan (≈ 15 TL)<br>
+• Tuz, kimyon, pul biber, isot (≈ 6 TL)`,
+      teknik: `1. Mercimeği 2 su bardağı su ile haşla, suyunu çekince ocaktan al.<br>
+2. Üzerine bulguru dök, karıştır, 15 dakika dinlendir.<br>
+3. Soğanı zeytinyağında kavur, salçayı ekle 2-3 dk daha kavur, mercimek-bulgur karışımına ekle.<br>
+4. Baharatları, doğranmış maydanoz ve taze soğanı ekleyip iyice yoğur. Köfte şekli ver, marul yaprağı ile servis et.`,
+      kalori: "yaklaşık 1300 kcal (6 kişilik)",
+      fayda: "Yüksek protein ve lif içerir, vejetaryenlere idealdir.",
+      alerjen: "Gluten (bulgur) içerir.",
+      maliyet: "6 kişilik toplam ≈ 85-95 TL",
+      gorsel: ""
     }
   };
 
@@ -181,7 +258,7 @@ function tarifGetir() {
     sonucDiv.innerHTML = `
       <h2>Tarif bulunamadı</h2>
       <p>Mevcut tarifler:<br>
-      <strong>patlıcan musakka, menemen, mercimek çorbası, köfte, mantı, lahmacun, etli nohut</strong></p>
+      <strong>patlıcan musakka, menemen, mercimek çorbası, köfte, mantı, lahmacun, etli nohut, kuru fasulye, pilav, yaprak sarma, mercimek köftesi</strong></p>
     `;
   }
 }
